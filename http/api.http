@@ -1,0 +1,13 @@
+GET http://localhost:5000/api/v1/transactions
+
+###
+POST http://localhost:5000/api/v1/transactions
+Content-Type: application/json
+
+{
+    "text": "Test",
+    "amount": 250
+}
+
+###
+DELETE http://localhost:5000/api/v1/transactions/5f8e0e5d35500f204850bf9c
